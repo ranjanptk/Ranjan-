@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ int a;
+ printf("enter even number only\n");
+ scanf("%d",&a);
+ while(a%2==0)
+ {
+ printf("number is this:%d\n",a);
+ scanf("%d",&a);
+}
+printf("odd number detected\n");
+    return 0;
+}
